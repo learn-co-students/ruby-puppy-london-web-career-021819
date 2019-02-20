@@ -18,7 +18,7 @@ def self.all
 end
 
 def self.all
-  puts @@all.map {|p| p.name}
+  puts @@all.map {|puppy| puppy.name}
 end
 
 end
